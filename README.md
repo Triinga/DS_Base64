@@ -4,6 +4,7 @@ Në këtë projekt kemi realizuar një program që mundëson enkodimin dhe dekod
 prej binar-në-tekst që përfaqësojnë të dhëna binare (më konkretisht, një sekuencë prej 8-bitësh bajte) në sekuenca prej 24 bitësh 
 që mund të përfaqësohen nga katër shifra 6-bit Base64. Ky program u realizua nga Jeta Syla, Suhejla Hoxha, Tringa Baftiu dhe Valtrina Cacaj 
 në kuadër të lëndës Siguria e të Dhënave.
+
 Kodimi Base64, aplikohet në sekretet e Kubernetes, OpenSSL, email dhe situata të tjera të zakonshme
 Si funksionon Base64?
 Fillimisht fjalën ose tekstin që dëshirojmë t'a enkodojmë e marrim paraqitjen binare të karaktereve ASCII të tekstit të dhënë. Kjo realizohet me ndihmën e tabelës së konvertimit ASCII-në-binar.
