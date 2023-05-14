@@ -1,4 +1,4 @@
-package ds_base64;
+package dataSecurity;
 
 class Base64Encode {
     private final static String base64chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";

@@ -29,14 +29,14 @@ public class Base64EncoderDecoderApp extends Application {
         primaryStage.setTitle("Base64 Encoder/Decoder");
 
         // Input area
-        Label inputLabel = new Label("Enter text to encode:");
+        Label inputLabel = new Label("Futni tekstin për të enkoduar:");
         TextArea inputTextArea = new TextArea();
         inputTextArea.setPrefRowCount(3);
         inputTextArea.setPrefColumnCount(40);
    
    
       // Encode button
-        Button encodeButton = new Button("Encode");
+        Button encodeButton = new Button("Enkodo");
         encodeButton.setOnAction(e -> {
             String inputText = inputTextArea.getText();
             String encodedText = b64e.encode(inputText);
@@ -44,7 +44,7 @@ public class Base64EncoderDecoderApp extends Application {
         });
 
         // Decode button
-        Button decodeButton = new Button("Decode");
+        Button decodeButton = new Button("Dekodo");
         decodeButton.setOnAction(e -> {
             String encodedText = inputTextArea.getText();
             String decodedText = b64d.decode(encodedText);
