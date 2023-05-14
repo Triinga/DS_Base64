@@ -16,7 +16,7 @@ në kuadër të lëndës Siguria e të Dhënave.
 - **Dekodimi:** Konverton të dhënat e koduara Base64 në formën e tyre origjinale.
 
 
-# Si funksionon Base64?
+### Si funksionon Base64?
 
 Fillimisht fjalën ose tekstin që dëshirojmë t'a enkodojmë e marrim paraqitjen binare të karaktereve ASCII të tekstit të dhënë. Kjo realizohet me ndihmën e tabelës së konvertimit ASCII-në-binar.
 ASCII përdor 8 bita për të përfaqësuar një karakter, përderisa Base64 përdor 6 bita për një karakter. Për këtë arsye tekstin e konvertuar nga ASCII në binar e ndajmë në blloqe 6 bitëshe.
